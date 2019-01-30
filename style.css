@@ -1,0 +1,130 @@
+#round-picture {
+  border-radius: 50%;
+  width: 200px;
+}
+
+body{
+  background-color: #DED9E9 ;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+div {
+  border-radius: 5px;
+
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card.text-center{
+  margin: 10px;
+  padding:40px;
+  background-color: #DEE7E7;
+  text-align: center
+}
+
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+.song {
+  margin: 10px;
+  padding:5px;
+  background-color: #DEE5E5;
+  border-radius: 10px
+}
+
+.video {
+  width: 224,
+  height:150
+}
+
+#title {
+  font-weight: 600;
+  color: rgba(90, 90, 90, 90%);
+  :
+}
+
+h2 {
+  font-weight: 300;
+  color: rgba(110, 110, 110, 80%);
+}
+
+h3 {
+  font-weight: 200;
+  color: rgba(120, 120, 120, 70%);
+
+}
+
+p {
+
+  font-weight: 100;
+  color: rgba(130, 130, 130, 65%);
+  display: block
+}
+
+#link-wagon {
+  text-decoration: none;
+  font-weight: 300;
+  color: rgba(110, 110, 110, 80%);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 200;
+  color: rgba(130, 130, 130, 65%);
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    padding: 8px;
+    vertical-align:center;
+    margin: 10px;
+  }
+
+td {
+    display: table-cell;
+    padding: 8px;
+    vertical-align:center;
+}
